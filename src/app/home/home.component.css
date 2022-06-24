@@ -1,95 +1,208 @@
+
+
+
+/* 
+---------------------------------------------
+welcome
+--------------------------------------------- 
+
+*/
+.welcome-area
+{
+  background-image: url("src/assets/images/time.jpg");
+  background-repeat:no-repeat;
+  background-position: right;
+  background-size:auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+  
+
+
+}
+.welcome-area h1 {
+  padding-top: 5px;
+  color : rgba(78,55,228,1);
+  font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-style: italic  ; 
+    padding-left: 20px;
+padding-bottom: 5%;
+}
+
+.welcome-area h2{
+  padding-left: 40px;
+  color : rgba(78,55,228,1);
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 5%;
+
+
+
+}
+.welcome-area h3{
+padding-left: 40%;
+  color :#fba70b;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding-bottom: 5%;
+
+  font-style: italic ; 
+
+}
+.welcome-area a{
+ margin-left: 30%;
+ 
+}
+.welcome-area p{
+  padding-left: 7%;
+}
+
+
 /*
-
-Lava Landing Page
-
-https://templatemo.com/tm-540-lava-landing-page
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. welcome
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
---------------------------------------------- */
-/* 
 ---------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
-/* 
+about
 ---------------------------------------------
-reset
---------------------------------------------- 
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
-pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
-s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
-figure, header, nav, section, article, aside, footer, figcaption {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
+
+.right-content{
+  align-self: center;
+  padding-left: 10%;
+  padding-bottom: 10%;
+  
+}
+.right-content h2 {
+  color : #fdefe9;
+  
+}
+.right-content h2 em{
+  color :#fba70b;
+}
+.right-content p{
+  font-size: 20px;
+  line-height: 26px;
+  color: #fdefe9 !important ;
+
 }
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+#about {
+  padding: 100px 0px;
+  position: relative;
+  z-index: 9;
+  background-image: url("src/assets/images/footer-bg.png");
+  background-repeat: no-repeat;
+  
 }
 
-.clearfix {
+
+
+#about img {
+  padding-left: 5%;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  box-shadow: 0px -10px 30px #ccc;  
+}
+
+/*
+---------------------------------------------
+How
+---------------------------------------------
+*/
+#how{
+  padding-top: 10%;
+}
+
+@media (max-width: 992px) {
+  .features-item {
+    margin-bottom: 45px;
+  }
+}
+
+.features-item {
+  border-radius: 5px;
+  padding: 60px 30px;
+  
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.item_1 
+{
+    padding-left: 9%;
+}
+.item_2 
+{
+    padding-left: 9%;
+}
+.item_3
+{
+    padding-left: 9%;
+    
+}
+.features-item {
+  border-radius: 5px;
+  padding: 60px 30px ;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.features-icon h3 {
+  right:100%;
+  TOP: 100%;
+  margin-right:80%;
+  font-size: 100px;
+  font-weight: 600;
+  color: #fdefe9;
+}
+
+.features-item img {
+  z-index: 10;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.features-item h4 {
+  margin-top: 0px;
+  font-size: 22px;
+  color: #1e1e1e;
+  margin-bottom: 25px;
+}
+.features-item h2 {
+  z-index: 9;
+  position: absolute;
+  top: 15px;
+  left: 45px;
+  font-size: 100px;
+  font-weight: 600;
+  color: #fdefe9;
+}
+.right-text{
+    align-self: center;
+    padding-left: 10%;
+    padding-bottom: 30%;
+    
+  }
+.features-item img {
+  z-index: 10;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.features-item h4 {
+  margin-top: 0px;
+  font-size: 22px;
+  color: #1e1e1e;
+  margin-bottom: 25px;
+}
+
+.left-image-decor {
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
   display: inline-block;
-}
-
-html[xmlns] .clearfix {
-  display: block;
-}
-
-* html .clearfix {
-  height: 1%;
-}
-
-ul, li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-header, nav, section, article, aside, footer, hgroup {
-  display: block;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  background-color: #fff;
-  font-size: 16px;
-  -ms-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
-
-/* 
----------------------------------------------
   height: 220%;
   margin-top: -200px;
 }
@@ -129,7 +242,7 @@ contact
 footer {
   margin-top: 200px;
   padding-top: 120px;
-  /*background-image: url(../images/footer-bg.png);*/
+  background-image: url("src/assets/images/footer-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -198,76 +311,6 @@ footer .right-content {
   color: #7a7a7a;
 }
 
-.footer-content .right-content {
-  color: #fff;
-}
-.footer h3 
-{
-     color: rgba(78,55,228,1)
-
-}
-
-.footer .footer-contact,
-.footer .footer-link {
-    position: relative;
-    margin-bottom: 45px;
-    color: #ffffff;
-}
-
-.footer .footer-contact h2,
-.footer .footer-link h2 ,
-.footer .footer-social h2{
-    margin-bottom: 30px;
-    font-size: 27px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: rgba(78,55,228,1);
-}
-
-.footer .footer-link a {
-    text-decoration: none;
-    display: block;
-    margin-bottom: 10px;
-    color: #ffffff;
-    transition: .3s;
-}
-
-.footer .footer-link a:hover { /* when mouse over */
-    color: rgba(78,55,228,1) !important;
-    letter-spacing: 1px;
-}
-
-.footer .footer-contact p svg {
-    width: 30px;
-}
-
-
-
-.footer-content .right-content h2 {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-size: 42px;
-  text-transform: capitalize;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.footer-content .right-content h2 em {
-  font-style: normal;
-  color: rgba(78,55,228,1)
-}
-
-.footer-content .right-content p {
-  color: #FFF;
-}
-
-.footer-content .right-content a {
-  color: #FFF;
-}
-
-.footer-content .right-content a:hover {
-  color: rgba(78,55,228,1)
-}
 
 
 footer .social {
