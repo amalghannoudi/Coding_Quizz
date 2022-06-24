@@ -1,12 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-<<<<<<< HEAD
 @import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
-<<<<<<< Updated upstream
-=======
-=======
-/* You can add global styles to this file, and also import other style files */
-@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
->>>>>>> bf6cd72cfcec295829e47a12ac609d40d2fdad71
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
 
@@ -171,9 +164,4 @@ button.main-button:hover {
   font-size: 15px;
   color: #888;
   text-align: center;
-<<<<<<< HEAD
 }
->>>>>>> Stashed changes
-=======
-}
->>>>>>> bf6cd72cfcec295829e47a12ac609d40d2fdad71
