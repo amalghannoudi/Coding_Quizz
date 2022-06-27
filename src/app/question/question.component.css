@@ -39,12 +39,13 @@ padding-right: 50px;
  
   }
  .option {
-    display :block ; 
-    padding :8px 15px ; 
-    background-color: #bad0c9;
-    border-radius: 15px;
-    transition: all 0.3s ease-out;
-    cursor: default;
+  overflow: hidden;
+  display :block ; 
+  padding :8px 15px ; 
+  background-color: #bad0c9;
+  border-radius: 15px;
+  transition: all 0.3s ease-out;
+  cursor:pointer;
 }
  a {
     text-decoration: none;
@@ -53,7 +54,10 @@ padding-right: 50px;
 .option:hover{
     background-color: #9ab5ac;
 }
-
+/*didn't work */
+.rep input[type=checkbox]{
+  background-color: #fba70b;
+}
 
 .footer_qa{
         padding: 10px 0 0;

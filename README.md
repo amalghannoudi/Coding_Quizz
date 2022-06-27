@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Run mock 
+`json-server --watch db.json`: write this command in terminal to see your data 
+`https://dark-spaceship-989307.postman.co/workspace/My-Workspace~4a1832e5-ac0b-4e64-8015-e62baab77c84/overview` : here my workspace where i can get/post/put/delete... data

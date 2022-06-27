@@ -7,10 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myapp';
+
+  constructor(){}
 }
-const ques : any =[
-  {
-    id: 1 , 
-    valQ :"jbdjgzb"
-  }
-];
+

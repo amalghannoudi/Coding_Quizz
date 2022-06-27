@@ -1,0 +1,32 @@
+{
+  "question": [
+    {
+      "id": 1,
+      "domaine": "angular",
+      "valQ": "Which of the following is correct about TypeScript ? ",
+      "reponse": [
+        {
+          "idR": "A",
+          "valR": " Angular is based on TypeScript ",
+          "answer": "True"
+        },
+        {
+          "idR": "B",
+          "valR": "TypeScript is maintained by Microsoft",
+          "answer": "True"
+        },
+        {  "idR":"C",
+          "valR" :"This is a superset of JavaScript ",
+          "answer": " True"
+  
+        },
+        {
+          "idR": "D",
+          "valR": "None of above",
+          "answer": "False"
+        }
+      ],
+      "typeR": "multiple"
+    }
+  ]
+}

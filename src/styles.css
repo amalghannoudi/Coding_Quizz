@@ -84,7 +84,7 @@ a.main-button-slider {
   padding: 15px 25px;
   background-color: rgba(78,55,228,1);
   text-transform: uppercase;
-  color: #fff;
+  color: #fff  !important ; 
   font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;

@@ -1,13 +1,16 @@
 
-<div class="container">
+<div class="container col-lg-12 col-md-12">
 
                 <div class="box_qa">
+                    <div class="box_head">
+                    
+                    </div>
                     <div class="body_qa">
                         <div class="quest" *ngFor = "let quest of quest" >
-                            <h3>Q{{quest.idQ}}.{{quest.valQ}} </h3>
-                            <form class="rep" *ngFor = "let rep of quest.reponse">
-                        <input type="radio" id="r1"><span class="option">{{rep.idR}}.{{rep.valR}}</span>
-                        </form>
+                            <h3>Q{{quest.id}}.{{quest.valQ}} </h3>
+                            <div class="rep" *ngFor = "let rep of quest.reponse">
+                        <input type="checkbox" id="r1"><span class="option">{{rep.idR}}.   {{rep.valR}}</span>
+                            </div>
                         </div>
                     </div> 
                     <a href="#">Skip</a>
