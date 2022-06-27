@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'myapp';
 }
+const ques : any =[
+  {
+    id: 1 , 
+    valQ :"jbdjgzb"
+  }
+];

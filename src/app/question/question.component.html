@@ -1,0 +1,20 @@
+
+<div class="container">
+
+                <div class="box_qa">
+                    <div class="body_qa">
+                        <div class="quest" *ngFor = "let quest of quest" >
+                            <h3>Q{{quest.idQ}}.{{quest.valQ}} </h3>
+                            <form class="rep" *ngFor = "let rep of quest.reponse">
+                        <input type="radio" id="r1"><span class="option">{{rep.idR}}.{{rep.valR}}</span>
+                        </form>
+                        </div>
+                    </div> 
+                    <a href="#">Skip</a>
+                    <div class="footer_qa">
+                            <a href="" class="main-button-slider">Next</a>
+
+                        </div>    
+                </div>
+            </div>
+    
