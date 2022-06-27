@@ -1,0 +1,61 @@
+.container 
+{
+    padding-left: 25%;
+    padding-top: 10%;
+   
+    
+}
+  .box_qa{
+padding-right: 50px;
+    width :500px ; 
+    padding: 30px;
+  min-height :100px ; 
+  background-color: #fff;
+  box-shadow: 0 0 5px 3px rgba(0,0,0,3);
+  border-radius: 15px;
+  }
+ 
+  .quest h3 {
+    padding-top: 5PX;
+    border-radius: 1rem; 
+    margin : 0 0 15px ; 
+    font-size :30px ; 
+   
+  }
+  .rep {
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 1cm;
+    font-size: 20px;
+
+  }
+  .rep input {
+    left :0 ; 
+    top : 0 ; 
+    width :100% ; 
+    height :100% ; 
+    z-index : 1  ; 
+    cursor : pointer ; 
+ 
+  }
+ .option {
+    display :block ; 
+    padding :8px 15px ; 
+    background-color: #bad0c9;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+    cursor: default;
+}
+ a {
+    text-decoration: none;
+    color: black;
+}
+.option:hover{
+    background-color: #9ab5ac;
+}
+
+
+.footer_qa{
+        padding: 10px 0 0;
+        text-align : right;
+}
