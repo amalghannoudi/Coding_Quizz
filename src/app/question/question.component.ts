@@ -1,44 +1,20 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { ServiceService } from '../service.service';
 @Component({
   selector: 'app-question',
   templateUrl: './question.component.html',
   styleUrls: ['./question.component.css']
 })
 export class QuestionComponent implements OnInit {
-  constructor() { }
+ quest :any ; 
+  constructor(private http:HttpClient, private service:ServiceService ) { }
    
   ngOnInit(): void {
+  this.service.getquest().subscribe(
+  (res)=>this.quest=res
+  ) ; 
   }
 
-  public quest =[
-    {
-        "idQ": 1,
-        "domaine": "angular",
-        "valQ": "Which of the following is correct about TypeScript ? ",
-        "reponse": [
-          {
-            "idR": "A",
-            "valR": " Angular is based on TypeScript ",
-            "answer": "False"
-          },
-          {
-            "idR": "B",
-            "valR":"TypeScript is maintained by Microsoft",
-            "answer": "False"
-          },
-          {
-            "idR": "C",
-            "valR": "This is a superset of JavaScript",
-            "answer": "False"
-          },
-          {
-            "idR":"D",
-            "valR": "All answers are correct",
-            "answer": "True"
-          }
-        ],
-        "typeR":"multiple" 
-      }  
-     
-]
+ 
 }
