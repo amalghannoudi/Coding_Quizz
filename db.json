@@ -28,5 +28,26 @@
       ],
       "typeR": "multiple"
     }
-  ]
-}
+  ],
+  "categorie":[
+    {"nom": "Angular" ,
+    "url" : "angular-removebg-preview.png" },
+    {"nom": "React" ,
+      "url" :"react-removebg-preview.png"},
+    {"nom": "Python" ,
+    "url" :"python-removebg-preview.png"},
+    {"nom": "JavaScript" , 
+    "url" : "js-removebg-preview.png" },
+    {"nom": "Html" , 
+      "url" : "html-removebg-preview.png" } ,
+       {"nom": "Css" , 
+        "url" : "CSS3_logo.svg-removebg-preview.png" },
+        {"nom": "Git" , 
+          "url" : "git-logo-A1D01DDA30-seeklogo.com-removebg-preview.png" }, 
+           {"nom": "Docker" , 
+            "url" : "docker-removebg-preview.png" },
+            {"nom": "Php" , 
+              "url" : "php-removebg-preview.png" }
+          
+  ] 
+  }
