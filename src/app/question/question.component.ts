@@ -7,13 +7,12 @@ import { ServiceService } from '../service.service';
   styleUrls: ['./question.component.css']
 })
 export class QuestionComponent implements OnInit {
- quest :any ; 
   constructor(private http:HttpClient, private service:ServiceService ) { }
-   
+   question :any ; 
   ngOnInit(): void {
-  this.service.getquest().subscribe(
-  (res)=>this.quest=res
-  ) ; 
+    this.service.getquest().subscribe(
+      (res)=>this.question=res
+      ) ;
   }
 
  
