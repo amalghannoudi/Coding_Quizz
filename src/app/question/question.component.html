@@ -6,9 +6,9 @@
                     
                     </div>
                     <div class="body_qa">
-                        <div class="quest" *ngFor = "let quest of quest" >
-                            <h3>Q{{quest.id}}.{{quest.valQ}} </h3>
-                            <div class="rep" *ngFor = "let rep of quest.reponse">
+                        <div class="quest" *ngFor = "let question of question" >
+                            <h3>Q{{question.id}}.{{question.valQ}} </h3>
+                            <div class="rep" *ngFor = "let rep of question.reponse">
                         <input type="checkbox" id="r1"><span class="option">{{rep.idR}}.   {{rep.valR}}</span>
                             </div>
                         </div>
