@@ -155,6 +155,9 @@ How
   font-weight: 600;
   color: #fdefe9;
 }
+.features-icon img {
+  width :70px;
+}
 
 .features-item img {
   z-index: 10;
